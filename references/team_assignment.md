@@ -1,36 +1,7 @@
-# Clothing-Store-Management-System
-Web-based Clothing Store Management System using Java, JSP, Servlets, and MySQL (MVC Architecture)
-
-## Team Members & Responsibilities
-
-### 👤 Dipika Thapa – Frontend (UI/UX)
-- Design JSP pages (Login, Register, Dashboard)
-- Implement CSS for responsive design
-- Create forms and layouts
-
-### 👤 Punam Shrestha – Backend (Controller Layer)
-- Develop Servlets (Controllers)
-- Handle HTTP requests and responses
-- Manage page navigation and redirects
-
-### 👤 Asmi Ale Magar – Database & Model
-- Design MySQL database
-- Create ER Diagram
-- Develop Java model classes (Product, User, Order)
-
-### 👤 Eshu Thapa – Business Logic (Service Layer)
-- Implement validation logic
-- Handle order processing
-- Manage stock updates
-
-### 👤 Grishma Tamang – Authentication, Testing & Report
-- Develop login system (session, cookies)
-- Implement security (encryption)
-- Write test cases
-- Prepare documentation and report
-
+# 🛍️ Clothing Store Management System (Team Responsibilities by File)
 
 ## Project Structure with Assigned Team Members
+
 ```
 Clothing-Store-Management-System/
 │
