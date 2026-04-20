@@ -37,7 +37,9 @@ public class UserDAO {
                     rs.getString("name"),
                     rs.getString("email"),
                     rs.getString("password"),
-                    rs.getString("role")
+                    rs.getString("role"),
+                    rs.getBoolean("is_approved"),
+                    rs.getTimestamp("created_at")
             ));
         }
 

@@ -1,44 +1,44 @@
 package dao;
 
-import entity.Order;
+import entity.OrderItem;
 import utils.DBConnection;
 
 import java.sql.*;
 import java.util.*;
 
-public class OrderDAO {
+public class OrderItemDAO {
 
-    public void addOrder(Order o) throws Exception {
+    public void addOrderItem(OrderItem oi) throws Exception {
         Connection conn = DBConnection.getConnection();
 
-        String sql = "INSERT INTO Orders(user_id, order_date, total_amount, status) VALUES (?, ?, ?, ?)";
+        String sql = "INSERT INTO OrderItems(order_id, product_id, quantity, price) VALUES (?, ?, ?, ?)";
         PreparedStatement ps = conn.prepareStatement(sql);
 
-        ps.setInt(1, o.getUserId());
-        ps.setDate(2, new java.sql.Date(o.getOrderDate().getTime()));
-        ps.setDouble(3, o.getTotalAmount());
-        ps.setString(4, o.getStatus());
+        ps.setInt(1, oi.getOrderId());
+        ps.setInt(2, oi.getProductId());
+        ps.setInt(3, oi.getQuantity());
+        ps.setDouble(4, oi.getPrice());
 
         ps.executeUpdate();
         conn.close();
     }
 
-    public List<Order> getAllOrders() throws Exception {
+    public List<OrderItem> getAllOrderItems() throws Exception {
         Connection conn = DBConnection.getConnection();
 
-        String sql = "SELECT * FROM Orders";
+        String sql = "SELECT * FROM OrderItems";
         Statement st = conn.createStatement();
         ResultSet rs = st.executeQuery(sql);
 
-        List<Order> list = new ArrayList<>();
+        List<OrderItem> list = new ArrayList<>();
 
         while (rs.next()) {
-            list.add(new Order(
+            list.add(new OrderItem(
+                    rs.getInt("order_item_id"),
                     rs.getInt("order_id"),
-                    rs.getInt("user_id"),
-                    rs.getDate("order_date"),
-                    rs.getDouble("total_amount"),
-                    rs.getString("status")
+                    rs.getInt("product_id"),
+                    rs.getInt("quantity"),
+                    rs.getDouble("price")
             ));
         }
 
