@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd408c40-3720-4207-9e3b-6638d1c64bef" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/CategoryDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/CategoryDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/OrderDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/OrderDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/OrderItemDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/OrderItemDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/UserDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +49,7 @@
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/2nd Year/Advanced Programming and Technology/Java Apt/week-8-tutorial-dipika2006&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Coursework/Coursework 4th Semister/Advanced Programming &amp; Technologies/UrbanWear&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -63,6 +67,19 @@
       <recent name="D:\Coursework\Coursework 4th Semister\Advanced Programming &amp; Technologies\UrbanWear\src\main\webapp\WEB-INF\views\user" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="UrbanWear" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="UrbanWear" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -102,7 +119,16 @@
       <workItem from="1776563431451" duration="3215000" />
       <workItem from="1776570231280" duration="2170000" />
       <workItem from="1776585933785" duration="6051000" />
-      <workItem from="1776601319965" duration="962000" />
+      <workItem from="1776601319965" duration="1323000" />
+      <workItem from="1776602725751" duration="7000" />
+      <workItem from="1776655392504" duration="407000" />
+      <workItem from="1776656869704" duration="12000" />
+      <workItem from="1776656918360" duration="82000" />
+      <workItem from="1776657011719" duration="18000" />
+      <workItem from="1776657088633" duration="62000" />
+      <workItem from="1776657169661" duration="5000" />
+      <workItem from="1776657185069" duration="224000" />
+      <workItem from="1776657447593" duration="291000" />
     </task>
     <servers />
   </component>
